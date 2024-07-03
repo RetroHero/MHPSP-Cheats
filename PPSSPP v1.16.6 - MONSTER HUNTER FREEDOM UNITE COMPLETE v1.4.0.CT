@@ -139,8 +139,23 @@ luaCall(justdoit())
           <Description>"PSP memory in CE(aob x64_v16.6)"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>000001595B790000</Address>
+          <Address>0000021235CF0000</Address>
           <CheatEntries>
+            <CheatEntry>
+              <ID>134502</ID>
+              <Description>"mAFUMOFU HOOD"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+00138D15</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>134501</ID>
+              <Description>"Equipment Box"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>+01195EE8</Address>
+            </CheatEntry>
             <CheatEntry>
               <ID>134486</ID>
               <Description>"Item Box"</Description>
