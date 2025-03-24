@@ -3,12 +3,6 @@
 0x010554EE = ‬Elder Quest Unlock (04 = Urgent Quest: Horn of the Monoblos(Clear) = Unlock Without Clear All Elders Quest)
 0x010554FF‬ = Guild Quests Unlock (00 = null |01 = HR:02| |02 = HR:03| |03 = HR:04| |04 = HR:05|)
 0x01055567 = Box Expansion‬ (03 = Tree Pages)
-0x0003C89C address of the jump to display items that are infinite
-0x0112C574 address of the jump that defines whether an item is infinite
-0x0112C5DC address of the instruction that defines the maximum to be withdrawn or sold from the box
-0x0003C894 color indicator for maximum stacked items (numbers turn red)
-0x0112BDD0 Number that decides the maximum number of items stacked by the box organizer
-0x0004849C Number that decides the maximum number of items stacked by depositing in the box
 113CD2C‬ = CRAFT LIST
 11377D0 = GUILD SHOP
 225D68‬ = Player Ambient (City,Home,Guild,Florest and Hills, etc, etc...)
@@ -47,6 +41,9 @@ CWC: 0010C262, Dissassembly: 0890C262, simple CWCheat: _L 0x0010C262 0x00000003
 
 Second Item Table (Item Rarity)( Combo Book II ) 
 CWC: 0010C276, Dissassembly: 0890C276, simple CWCheat: _L 0x0010C276 0x00000003 
+
+Carving Fisrt Slot
+0x098934E4 
 
 
 1A5DE1‬ = UI indentfier 1

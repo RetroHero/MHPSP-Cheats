@@ -1,0 +1,84 @@
+_L 0xE021FFFF 0x10000000
+_L 0x20000000 0x30A3FFFF
+0883C894
+0883C89C endereço do jump para exibir items que são infinitos
+0992C574 endereço do jump que define se um item e infinito
+0992C5DC endereço da instrução que define o maximo a ser retirado ou vendido da box
+
+_L 0x2003C894 0x3403270F indicador de cor para maximo de items emiplhados (numeros ficão vermelhos)
+_L 0x2112BDD0 0x3406270F Numero que decide o maximo de items emiplhados pelo organizar da caixa
+_L 0x2004849C 0x3406270F Numero que decide o maximo de items emiplhados pe depositar na caixa
+
+09929DB8
+
+0992C5D0 00041880 (	sll	v1,a0,0x2)
+0992C5D4 00671821 (	addu	v1,v1,a3)
+0992C5DC 90700782 (	lbu	s0,0x782(v1))
+
+_L 0x2112C5BC 0x3C070892
+_L 0x2112C5C0 0x8CE747B0
+_L 0x2112C5D0 0x0E200016
+_L 0x2112C5D4 0x00000000
+_L 0x2112C5DC 0x00000000
+_L 0x20000058 0x34100018
+_L 0x2000005C 0x1070000D
+_L 0x20000060 0x34100063
+_L 0x20000064 0x3C030892
+_L 0x20000068 0x00041880
+_L 0x2000006C 0x00671821
+_L 0x20000070 0x90700780
+_L 0x20000074 0x34030014
+_L 0x20000078 0x02030018
+_L 0x2000007C 0x3C030890
+_L 0x20000080 0x3410C24E
+_L 0x20000084 0x00701820
+_L 0x20000088 0x00008012
+_L 0x2000008C 0x00701820
+_L 0x20000090 0x90700001
+_L 0x20000094 0x3C030892
+_L 0x20000098 0x00041880
+_L 0x2000009C 0x00671821
+_L 0x200000A0 0x90630782
+_L 0x200000A4 0x0070082A
+_L 0x200000A8 0x10200002
+_L 0x200000AC 0x00000000
+_L 0x200000B0 0x00608021
+_L 0x200000B4 0x03E00008
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
